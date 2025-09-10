@@ -13,4 +13,27 @@ The main goal is to enhance diagnostic quality by combining complementary featur
   - Peak Signal-to-Noise Ratio (PSNR)
   - Structural Similarity Index (SSIM)
 
-##  Project Structure
+##  Project Structuresrc/ 
+→ main Python scripts (preprocessing, fusion, evaluation)
+notebooks/ → Jupyter demo for reproducibility
+results/ → sample outputs (before/after fusion)
+requirements.txt → dependencies
+
+---
+
+##  Tools & Libraries
+- Python 3.9+
+- NumPy, SciPy, OpenCV
+- PyWavelets
+- Matplotlib
+- Torch (optional for future deep learning experiments)
+
+---
+
+##  How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/JanaMohamed77/medical-imaging-fusion.git
+   cd medical-imaging-fusion
+pip install -r requirements.txt
+jupyter notebook notebooks/demo.ipynb
