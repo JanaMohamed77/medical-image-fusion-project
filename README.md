@@ -37,3 +37,15 @@ requirements.txt → dependencies
    cd medical-imaging-fusion
 pip install -r requirements.txt
 jupyter notebook notebooks/demo.ipynb
+Author
+
+Your Name
+
+🎓 Bioinformatics Student, Delta University – Faculty of AI
+
+🔗 LinkedIn
+ |www.linkedin.com/in/jana-abozeid
+
+🛡️ License
+
+This project is licensed under the MIT License – feel free to use and modify with attribution.
