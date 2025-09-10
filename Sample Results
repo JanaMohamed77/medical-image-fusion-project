@@ -1,3 +1,17 @@
-| Modality T1ce                | Modality T2                | Fused Image                   |
-| ---------------------------- | -------------------------- | ----------------------------- |
-| ![](results/sample_t1ce.png) | ![](results/sample_t2.png) | ![](results/fused_result.png) |
+## 📊 Sample Results
+
+Below are examples of multimodal MRI fusion using **wavelet transform**:
+
+| Modality T1ce | Modality T2 | Modality FLAIR | Fused Image |
+|---------------|-------------|----------------|-------------|
+| ![](results/sample_t1ce.png) | ![](results/sample_t2.png) | ![](results/sample_flair.png) | ![](results/fused_result.png) |
+
+###  Quantitative Evaluation
+| Fusion Case          | MSE   | PSNR (dB) | SSIM |
+|----------------------|-------|-----------|------|
+| T1ce + T2            | 0.021 | 34.7      | 0.89 |
+| T1ce + FLAIR         | 0.018 | 35.1      | 0.90 |
+| T1ce + T2 + FLAIR    | 0.015 | 36.4      | 0.92 |
+
+>  Metrics are computed against **T1ce** as the reference image.  
+> Images are resized to 256×256 and normalized before fusion.
